@@ -1,0 +1,24 @@
+.history/
+.idea/
+.idea_modules/
+.idea_modules/
+
+# ignored files for react
+node_modules/
+build/
+coverage/
+*.log
+*.lock
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+.DS_Store
+.env
+.env.*
+
+
+# dependencies
+
+# misc

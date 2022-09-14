@@ -7,14 +7,14 @@ function Footer() {
     <footer className="footer-container">
       <div className="links-footer">
         <p>It's me :)</p>
-        <a href="https://www.linkedin.com/in/thiagodanobrega/" 
+        <a href="https://www.linkedin.com/in/yokwejuste/" 
           target="_blank" 
           className="icon-container" 
           rel="noreferrer"
         >
           <BsLinkedin className="icon-footer"/>
         </a>
-        <a href="https://github.com/thiagodanobrega" 
+        <a href="https://github.com/yokwejuste" 
           target="_blank" 
           className="icon-container" 
           rel="noreferrer"
