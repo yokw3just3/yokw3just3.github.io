@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .history/
 .idea/
 .idea_modules/
@@ -24,6 +25,8 @@ coverage/
 
 # misc
 =======
+=======
+>>>>>>> de12965 (feat: ignored files added)
 # react ignored files
 build/
 coverage/
@@ -58,4 +61,7 @@ dist/
 *.swp
 *.swo
 *.swn
+<<<<<<< HEAD
+>>>>>>> de12965 (feat: ignored files added)
+=======
 >>>>>>> de12965 (feat: ignored files added)
