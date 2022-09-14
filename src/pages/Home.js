@@ -41,7 +41,7 @@ function Home() {
               </a>
             </div>
             <img 
-              src={image} alt="Foto de perfil do Thiago, um jovem homem branco de cabelo castanho" 
+              src={image} alt="My profile picture" 
               className="image-perfil"
             />
           </main>
