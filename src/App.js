@@ -4,6 +4,7 @@ import "./App.css";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 import Projects from "./pages/Projects";
 import Recommendation from "./pages/Recommendation";
 import { LinkPreview } from '@dhaiwat10/react-link-preview';
@@ -20,6 +21,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/recommendation" element={<Recommendation />} />
+          {/* <Route path="/more" element={<Recommendation />} /> */}
+          <Route path="/blog" element={<Blog/>} />
         </Routes>
       </AppProvider>
   );
