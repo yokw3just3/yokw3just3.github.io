@@ -107,3 +107,10 @@
     padding-top: 100px;
   }
 }
+
+.to_the_left{
+  margin-left: 0;
+  position: relative;
+  float: left;
+  text-align: left;
+}
