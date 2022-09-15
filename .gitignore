@@ -61,7 +61,6 @@ dist/
 *.swp
 *.swo
 *.swn
-<<<<<<< HEAD
->>>>>>> de12965 (feat: ignored files added)
-=======
->>>>>>> de12965 (feat: ignored files added)
+*.pdf
+*pdf*
+*pdf
