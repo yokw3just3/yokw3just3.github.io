@@ -14,7 +14,7 @@ import AppProvider from "./context/AppProvider";
 function App() {
   return (
       <AppProvider>
-        <LinkPreview url='https://yokwejuste.me' width='400px' imageHeight={200}/>;
+        <LinkPreview url='https://yokwejuste.me' width='400px' imageHeight={200}/>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

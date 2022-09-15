@@ -8,6 +8,7 @@ import { AiOutlineLink } from "react-icons/ai";
 import { FaHeart } from "react-icons/fa";
 import "../styles/Projects.css";
 import { BsCalendar } from "react-icons/bs";
+import { FiEye } from "react-icons/fi";
 
 function Blog() {
   const [data, setData] = React.useState(null);
@@ -49,6 +50,9 @@ function Blog() {
                         <BsCalendar />
                         &nbsp;
                         {article.readable_publish_date}
+                      </i>
+                      <i>
+                        <FiEye/>
                       </i>
                       <a
                         href={article.url}
