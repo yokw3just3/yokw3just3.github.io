@@ -25,7 +25,7 @@ function Projects() {
         <main className="main-wrapper projects">
           <h1 className="title-page-projects">My projects...</h1>
           <div className="btn-container">
-            <button 
+            <button
               type="button" 
               className={`btn-filter ${typeFilter === 'all' && 'active'}`} 
               onClick={() => setTypeFilter('all')}
