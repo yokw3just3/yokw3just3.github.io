@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Header from "../components/Header";
 import TitleBar from "../components/TitleBar";
 import Footer from "../components/Footer";
@@ -11,8 +11,9 @@ import { BsCalendar } from "react-icons/bs";
 import { FiEye } from "react-icons/fi";
 
 function Blog() {
-  const [data, setData] = React.useState(null);
-  React.useEffect(() => {
+  
+  const [data, setData] = useState(null);
+  useEffect(() => {
     fetch("https://dev.to/api/articles?username=yokwejuste")
       .then((res) => res.json())
       .then((data) => setData(data));
