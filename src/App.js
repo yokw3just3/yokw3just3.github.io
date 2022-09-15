@@ -6,13 +6,14 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Recommendation from "./pages/Recommendation";
-
+import { LinkPreview } from '@dhaiwat10/react-link-preview';
 import AppProvider from "./context/AppProvider";
 
 
 function App() {
   return (
       <AppProvider>
+        <LinkPreview url='https://yokwejuste.me' width='400px' imageHeight={200}/>;
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
