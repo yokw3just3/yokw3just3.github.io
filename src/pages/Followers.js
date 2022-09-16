@@ -9,17 +9,15 @@ import { BsGithub } from "react-icons/bs";
 import { AiOutlineLink } from "react-icons/ai";
 
 function Followers() {
-  // getting followers from github api
   const [followers, setFollowers] = React.useState([]);
   React.useEffect(() => {
     fetch("https://api.github.com/users/yokwejuste/followers")
       .then((res) => res.json())
       .then((data) => setFollowers(data))
-      .catch((err) => console.log(err))
-      .then(() => console.log("done"));
+      .catch((err) => console.log(err));
   }, []);
   return (
-    <body>
+    <div>
       <TitleBar />
       <section className="flex-container">
         <section className="main-container">
@@ -63,7 +61,7 @@ function Followers() {
         <SideBar />
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
 

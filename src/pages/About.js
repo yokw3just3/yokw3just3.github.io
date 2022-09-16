@@ -9,7 +9,7 @@ import IconCloud from '../components/IconCloud';
 
 function About() {
   return ( 
-    <body>
+    <div>
       <TitleBar />
       <section className="flex-container">
         <section className="main-container">
@@ -49,7 +49,7 @@ function About() {
         <SideBar />
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
 

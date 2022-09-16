@@ -20,7 +20,7 @@ function Blog() {
   }, []);
 
   return (
-    <body>
+    <div>
       <TitleBar />
       <section className="flex-container">
         <section className="main-container">
@@ -76,7 +76,7 @@ function Blog() {
         <SideBar />
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
 

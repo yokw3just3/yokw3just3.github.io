@@ -11,7 +11,7 @@ import Typical from "react-typical";
 
 function Home() {
   return (
-    <body>
+    <div>
       <TitleBar />
       <section className="flex-container">
         <SideBar />
@@ -58,7 +58,7 @@ function Home() {
         </section>
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
 
