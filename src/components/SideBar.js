@@ -5,7 +5,7 @@ import js_icon from "../images/js_icon.svg";
 import html_icon from "../images/html_icon.svg";
 import css_icon from "../images/css_icon.svg";
 import json_icon from "../images/json_icon.svg";
-// import python_icon from "../images/python.png";
+import python_icon from "../images/python.png";
 import markdown_icon from "../images/markdown.png";
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 import { FaFolder, FaFolderOpen } from "react-icons/fa";
@@ -51,12 +51,10 @@ function SideBar() {
             <img src={css_icon} alt="icon" className="icon-side-bar" />
             <p>contact.css</p>
           </Link>
-          {/* 
-          <Link to="/more" className="explorer-file">
+          <Link to="/followers" className="explorer-file">
             <img src={python_icon} alt="icon" className="icon-side-bar" />
-            <p>more.py</p>
-          </Link> 
-          */}
+            <p>followers.py</p>
+          </Link>
           <Link to="/blog" className="explorer-file">
             <img src={markdown_icon} alt="icon" className="icon-side-bar" />
             <p>blog.md</p>
