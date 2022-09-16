@@ -4,7 +4,7 @@ import TitleBar from "../components/TitleBar";
 import Footer from "../components/Footer";
 import SideBar from "../components/SideBar";
 import "../styles/Home.css";
-import profile_image from "../images/img-perfil.png";
+import profile_image from "../images/img-yokwejuste.png";
 import { FiDownload } from "react-icons/fi";
 import MenuMobile from "../components/MenuMobile";
 import Typical from "react-typical";
